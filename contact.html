@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact - My Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="script.js"></script>
+    <script src="https://cdn.emailjs.com/dist/email.min.js"></script>
+  <script>
+    (function () {
+      emailjs.init("J41v_YMdGDSYxCZAJ");
+    })();
+  </script>
+</head>
+<body>
+    <nav>
+        <div class="logo">
+            <img src="t-removebg-preview.png" alt="Logo">
+        </div>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="projects.html">Projects</a></li>
+        </ul>
+
+        <div><a href="contact.html" class="contact-button">Contact Me</a></div>
+    </nav>
+    <div class="oga">
+        <div class="email-whatsapp">
+            <div class="email-box">
+                <img src="./Email svg.png" alt="Email Icon" class="email-icon">
+                <p class="email-label">Email</p>
+                <p class="email-address">mosopefoluwaolatunji0@gmail.com</p>
+                <a href="mailto:mosopefoluwaolatunji0@gmail.com" class="email-link">Send an Email</a>
+            </div>
+
+            <div class="Whatsapp-box">
+                <img src="./Whatsapp svg.png" alt="Email Icon" class="email-icon">
+                <p class="email-label">Whatsapp</p>
+                <p class="email-address">08035636090</p>
+                <a href="https://wa.me/2348035636090" class="email-link">Send a Message</a>
+            </div>
+        </div>
+
+        <div class="contact-container">
+            <h1>Contact Me</h1>
+            <form>
+                <input type="text" id="name" name="name" placeholder="Your Full Name" required>
+                <input type="email" id="email" name="email" placeholder="Your Email" required>
+                <textarea id="message" name="message" rows="5" placeholder="Leave a message" required></textarea>
+                <button type="submit">Send Message</button>
+            </form>
+        </div>
+    </div>
+</body>
+</html>
