@@ -49,7 +49,7 @@ nav ul li a {
 }
 
 .contact-button:hover {
-    background-color: #0056b3;
+    background-color: #A67F78;
 }
 
 /* Hero Section (Home Page) */
@@ -322,4 +322,5 @@ form button:hover {
     .project-card {
         margin: 10px 0;
     }
+
 }
